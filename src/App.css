@@ -14,9 +14,10 @@ body {
   margin: 0;
   font-family: 'poppins', sans-serif;
   color:black;
-  background: #FFEFBA;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ),
+   repeating-linear-gradient( #b7b8d055, #b7b8d0 );
   
 
 
