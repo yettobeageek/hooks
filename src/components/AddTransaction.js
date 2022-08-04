@@ -31,9 +31,11 @@ const AddTransaction = () => {
             <input type="text" value={text} onChange={(e)=>setText(e.target.value)} placeholder='Add your new transaction..' />
         </div>
         <div className="form-control">
+            <br />
             <label htmlFor="amount"><strong>Amount</strong> <br /><small>[income in(+) expense in(-)]</small></label>
             <input type="number" value={amount} onChange={(e)=> setAmount(e.target.value)} placeholder='Enter amount'/>
         </div>
+        <br />
         <button className="btn">Add Transaction</button>
     </form>
     </>  )
